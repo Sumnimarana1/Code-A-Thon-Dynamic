@@ -1,5 +1,5 @@
 //
-//  ItemViewController.swift
+//  AddItemViewController.swift
 //  UserSignin
 //
 //  Created by Rana,Sumnima on 10/20/18.
@@ -8,15 +8,18 @@
 
 import UIKit
 
-class ItemViewController: UIViewController {
+class AddItemViewController: UIViewController {
+  
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func back(_ segue:UIStoryboardSegue){}
+
     /*
     // MARK: - Navigation
 

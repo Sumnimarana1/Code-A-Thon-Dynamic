@@ -1,22 +1,23 @@
 //
-//  ItemViewController.swift
+//  HomeViewController.swift
 //  UserSignin
 //
-//  Created by Rana,Sumnima on 10/20/18.
+//  Created by Rana,Sumnima on 10/21/18.
 //  Copyright © 2018 Student. All rights reserved.
 //
 
 import UIKit
 
-class ItemViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+     @IBAction func back(_ segue:UIStoryboardSegue){}
     
-    @IBAction func back(_ segue:UIStoryboardSegue){}
+
     /*
     // MARK: - Navigation
 

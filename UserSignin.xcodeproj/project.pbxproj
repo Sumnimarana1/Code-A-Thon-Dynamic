@@ -20,9 +20,21 @@
 		3FF876B02166D82F005844FF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF876AF2166D82F005844FF /* RegisterViewController.swift */; };
 		42325E26545DDA2D69913688 /* Pods_UserSigninUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560D63C16F8354339E711E9B /* Pods_UserSigninUITests.framework */; };
 		635CE01835E13D968080C2E7 /* Pods_UserSignin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB1F023BD6D0E3210248007 /* Pods_UserSignin.framework */; };
-		8010578B217BB51200CCF4A3 /* LaundryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010578A217BB51200CCF4A3 /* LaundryTableViewController.swift */; };
+		8010EBBA217BD06000B8A18E /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010EBB9217BD06000B8A18E /* ItemViewController.swift */; };
+		8010EBBE217BD44800B8A18E /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010EBBD217BD44800B8A18E /* AddItemViewController.swift */; };
 		805726EE21670A3F006E049F /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805726ED21670A3F006E049F /* FormViewController.swift */; };
-		80C89871217BB1890090596E /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C89870217BB1890090596E /* ItemViewController.swift */; };
+		808F3461217D6A8B00A6226A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F3460217D6A8B00A6226A /* Todo.swift */; };
+		808F3463217D6AE400A6226A /* tododetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F3462217D6AE400A6226A /* tododetailItem.swift */; };
+		808F3467217D735900A6226A /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F3466217D735900A6226A /* TodoViewController.swift */; };
+		808F3469217D85C900A6226A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F3468217D85C900A6226A /* HomeViewController.swift */; };
+		80F5FF95217D0228002AD243 /* SettingsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FF94217D0228002AD243 /* SettingsDetailTableViewController.swift */; };
+		80F5FF99217D03A0002AD243 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FF98217D03A0002AD243 /* Settings.swift */; };
+		80F5FF9B217D03BE002AD243 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FF9A217D03BE002AD243 /* MenuItem.swift */; };
+		80F5FF9D217D041F002AD243 /* EachSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FF9C217D041F002AD243 /* EachSettingViewController.swift */; };
+		80F5FF9F217D064E002AD243 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FF9E217D064E002AD243 /* SettingTableViewController.swift */; };
+		80F5FFA1217D0B6D002AD243 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FFA0217D0B6D002AD243 /* TodoTableViewController.swift */; };
+		80F5FFA3217D0CBF002AD243 /* TodoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FFA2217D0CBF002AD243 /* TodoDetailTableViewController.swift */; };
+		80F5FFA5217D0EF6002AD243 /* detailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5FFA4217D0EF6002AD243 /* detailItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,9 +75,21 @@
 		560D63C16F8354339E711E9B /* Pods_UserSigninUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserSigninUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		724EEE7B3554CC2C3C87A4A9 /* Pods-UserSigninUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserSigninUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserSigninUITests/Pods-UserSigninUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		779737015548C38AB93415B7 /* Pods-UserSignin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserSignin.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserSignin/Pods-UserSignin.release.xcconfig"; sourceTree = "<group>"; };
-		8010578A217BB51200CCF4A3 /* LaundryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryTableViewController.swift; sourceTree = "<group>"; };
+		8010EBB9217BD06000B8A18E /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		8010EBBD217BD44800B8A18E /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		805726ED21670A3F006E049F /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
-		80C89870217BB1890090596E /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		808F3460217D6A8B00A6226A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		808F3462217D6AE400A6226A /* tododetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tododetailItem.swift; sourceTree = "<group>"; };
+		808F3466217D735900A6226A /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		808F3468217D85C900A6226A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80F5FF94217D0228002AD243 /* SettingsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailTableViewController.swift; sourceTree = "<group>"; };
+		80F5FF98217D03A0002AD243 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		80F5FF9A217D03BE002AD243 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		80F5FF9C217D041F002AD243 /* EachSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachSettingViewController.swift; sourceTree = "<group>"; };
+		80F5FF9E217D064E002AD243 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		80F5FFA0217D0B6D002AD243 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		80F5FFA2217D0CBF002AD243 /* TodoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailTableViewController.swift; sourceTree = "<group>"; };
+		80F5FFA4217D0EF6002AD243 /* detailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailItem.swift; sourceTree = "<group>"; };
 		8BB1F023BD6D0E3210248007 /* Pods_UserSignin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserSignin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4ACFC643D72DE2B5812641 /* Pods-UserSigninUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserSigninUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserSigninUITests/Pods-UserSigninUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9FD42591BDF385B20AD0284D /* Pods-UserSigninTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserSigninTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserSigninTests/Pods-UserSigninTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,10 +160,16 @@
 		3FEC02B02161457700C66198 /* UserSignin */ = {
 			isa = PBXGroup;
 			children = (
+				3FEC02B52161457700C66198 /* Main.storyboard */,
+				808F3468217D85C900A6226A /* HomeViewController.swift */,
 				3FEC02B12161457700C66198 /* AppDelegate.swift */,
 				3FEC02B32161457700C66198 /* ViewController.swift */,
-				3FEC02B52161457700C66198 /* Main.storyboard */,
-				8010578A217BB51200CCF4A3 /* LaundryTableViewController.swift */,
+				808F3460217D6A8B00A6226A /* Todo.swift */,
+				808F3462217D6AE400A6226A /* tododetailItem.swift */,
+				80F5FFA2217D0CBF002AD243 /* TodoDetailTableViewController.swift */,
+				80F5FFA0217D0B6D002AD243 /* TodoTableViewController.swift */,
+				80F5FF9E217D064E002AD243 /* SettingTableViewController.swift */,
+				8010EBBD217BD44800B8A18E /* AddItemViewController.swift */,
 				805726ED21670A3F006E049F /* FormViewController.swift */,
 				3FF876AF2166D82F005844FF /* RegisterViewController.swift */,
 				3F437243216183BB00DC0656 /* loginView.swift */,
@@ -147,7 +177,13 @@
 				3FEC02BA2161457700C66198 /* LaunchScreen.storyboard */,
 				3FEC02BD2161457700C66198 /* Info.plist */,
 				3F4372472161853B00DC0656 /* LoginViewController.swift */,
-				80C89870217BB1890090596E /* ItemViewController.swift */,
+				8010EBB9217BD06000B8A18E /* ItemViewController.swift */,
+				80F5FF98217D03A0002AD243 /* Settings.swift */,
+				80F5FFA4217D0EF6002AD243 /* detailItem.swift */,
+				80F5FF9A217D03BE002AD243 /* MenuItem.swift */,
+				80F5FF94217D0228002AD243 /* SettingsDetailTableViewController.swift */,
+				80F5FF9C217D041F002AD243 /* EachSettingViewController.swift */,
+				808F3466217D735900A6226A /* TodoViewController.swift */,
 			);
 			path = UserSignin;
 			sourceTree = "<group>";
@@ -195,7 +231,7 @@
 				3FEC02AB2161457700C66198 /* Frameworks */,
 				3FEC02AC2161457700C66198 /* Resources */,
 				6481A7D820EE768D85BF60D3 /* [CP] Embed Pods Frameworks */,
-				61F0D270813397B31ACF3CEB /* [CP] Copy Pods Resources */,
+				6810C6D54703832BF127DD43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +250,8 @@
 				3FEC02BE2161457700C66198 /* Sources */,
 				3FEC02BF2161457700C66198 /* Frameworks */,
 				3FEC02C02161457700C66198 /* Resources */,
+				19F992455C893938A564D6CC /* [CP] Embed Pods Frameworks */,
+				393968F7DBC8952B067683BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +271,8 @@
 				3FEC02C92161457700C66198 /* Sources */,
 				3FEC02CA2161457700C66198 /* Frameworks */,
 				3FEC02CB2161457700C66198 /* Resources */,
+				4628916A9EC7FB35D36D7553 /* [CP] Embed Pods Frameworks */,
+				7B3438297548AD3E9211C5D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,26 +376,49 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61F0D270813397B31ACF3CEB /* [CP] Copy Pods Resources */ = {
+		19F992455C893938A564D6CC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UserSignin/Pods-UserSignin-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSignin/Pods-UserSignin-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSigninTests/Pods-UserSigninTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393968F7DBC8952B067683BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSigninTests/Pods-UserSigninTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4628916A9EC7FB35D36D7553 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSigninUITests/Pods-UserSigninUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6481A7D820EE768D85BF60D3 /* [CP] Embed Pods Frameworks */ = {
@@ -365,25 +428,32 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UserSignin/Pods-UserSignin-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleAPIClient/GoogleAPIClient.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSignin/Pods-UserSignin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6810C6D54703832BF127DD43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSignin/Pods-UserSignin-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F9892C3AD8AA86D8E0AED0A /* [CP] Check Pods Manifest.lock */ = {
@@ -402,6 +472,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3438297548AD3E9211C5D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserSigninUITests/Pods-UserSigninUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBC4F0CB5B623A84325A19A4 /* [CP] Check Pods Manifest.lock */ = {
@@ -429,14 +514,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C89871217BB1890090596E /* ItemViewController.swift in Sources */,
+				80F5FF9F217D064E002AD243 /* SettingTableViewController.swift in Sources */,
+				8010EBBA217BD06000B8A18E /* ItemViewController.swift in Sources */,
 				805726EE21670A3F006E049F /* FormViewController.swift in Sources */,
-				8010578B217BB51200CCF4A3 /* LaundryTableViewController.swift in Sources */,
+				808F3467217D735900A6226A /* TodoViewController.swift in Sources */,
 				3F4372482161853B00DC0656 /* LoginViewController.swift in Sources */,
+				80F5FF95217D0228002AD243 /* SettingsDetailTableViewController.swift in Sources */,
 				3FF876B02166D82F005844FF /* RegisterViewController.swift in Sources */,
+				8010EBBE217BD44800B8A18E /* AddItemViewController.swift in Sources */,
 				3FEC02B42161457700C66198 /* ViewController.swift in Sources */,
 				3F437244216183BB00DC0656 /* loginView.swift in Sources */,
+				80F5FFA3217D0CBF002AD243 /* TodoDetailTableViewController.swift in Sources */,
 				3FEC02B22161457700C66198 /* AppDelegate.swift in Sources */,
+				808F3463217D6AE400A6226A /* tododetailItem.swift in Sources */,
+				80F5FF9B217D03BE002AD243 /* MenuItem.swift in Sources */,
+				80F5FFA1217D0B6D002AD243 /* TodoTableViewController.swift in Sources */,
+				808F3469217D85C900A6226A /* HomeViewController.swift in Sources */,
+				80F5FFA5217D0EF6002AD243 /* detailItem.swift in Sources */,
+				80F5FF9D217D041F002AD243 /* EachSettingViewController.swift in Sources */,
+				808F3461217D6A8B00A6226A /* Todo.swift in Sources */,
+				80F5FF99217D03A0002AD243 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

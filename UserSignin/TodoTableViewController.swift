@@ -1,14 +1,14 @@
 //
-//  LaundryTableViewController.swift
+//  TodoTableViewController.swift
 //  UserSignin
 //
-//  Created by Rana,Sumnima on 10/20/18.
+//  Created by Rana,Sumnima on 10/21/18.
 //  Copyright © 2018 Student. All rights reserved.
 //
 
 import UIKit
 
-class LaundryTableViewController: UITableViewController {
+class TodoTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,6 @@ class LaundryTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 0
     }
-     @IBAction func back(_ segue:UIStoryboardSegue){}
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
