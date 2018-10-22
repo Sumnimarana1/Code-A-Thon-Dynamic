@@ -35,12 +35,12 @@
                                     <action selector="Email:" destination="Qd6-Cm-eyh" eventType="editingDidEnd" id="OaB-CH-95O"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xkd-pe-eBA">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="***" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Xkd-pe-eBA">
                                 <rect key="frame" x="111" y="201" width="248" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="password:" destination="Qd6-Cm-eyh" eventType="editingDidEnd" id="75I-n8-Wj1"/>
                                 </connections>
@@ -1246,8 +1246,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="H3L-Oc-vAe" kind="relationship" relationship="viewControllers" id="mkR-b6-gka"/>
-                        <segue destination="cSt-If-jhb" kind="relationship" relationship="viewControllers" id="IKS-OW-RqE"/>
                         <segue destination="9wN-NF-l8v" kind="relationship" relationship="viewControllers" id="Jld-ao-gUd"/>
+                        <segue destination="cSt-If-jhb" kind="relationship" relationship="viewControllers" id="IKS-OW-RqE"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qlw-Vk-wZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
