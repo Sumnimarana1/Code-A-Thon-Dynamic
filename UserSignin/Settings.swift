@@ -8,21 +8,6 @@
 
 import Foundation
 
-struct Restaurant{
-    var name:String
-    var openingTime:Int
-    var closingTime:Int
-    //var menuItems:[MenuItem]
-    //var menuItems = [MenuItem]()
-    var menuItems:[MenuItem] = [MenuItem(name: "Chicken salad", cost:10,calories:700)]
-    
-    init(name:String, openingTime:Int, closingTime:Int){
-        self.name = name;
-        self.openingTime = openingTime
-        self.closingTime = closingTime
-    }
-    
-}
 
 struct Settings{
     var name:String
@@ -61,31 +46,4 @@ struct SettingDetail{
     }
     
 }
-struct FoodCourt{
-    static var foodCourt:FoodCourt = FoodCourt()
-    private init(){}
-    private var restaurants:[Restaurant] = [Restaurant(name: "Applebees", openingTime:10,closingTime:12),Restaurant(name: "Carson", openingTime:10,closingTime:11)]
-    
-    var selectedRestaurantIndex:Int = -1
-    mutating func add(restaurant:Restaurant){
-        restaurants.append(restaurant)
-    }
-    // returns # of airlines
-    func numOfRestaurants()->Int {
-        return restaurants.count
-    }
-    subscript(index:Int) -> Restaurant{
-        return restaurants[index]
-    }
-    mutating func setSelectedRestaurantIndex(_ index: Int) ->
-        Void {
-            selectedRestaurantIndex = index    }
-    mutating func selectedRestaurant() -> Restaurant{
-        return restaurants[selectedRestaurantIndex]
-    }
-    mutating func addMenuItemToSelectedRestaurant(_ menuItem: MenuItem){
-        restaurants[selectedRestaurantIndex].menuItems.append(menuItem)
-    }
-    
-    
-}
+

@@ -10,8 +10,7 @@ import Foundation
 struct detailItem {
     
     var name:String
-    ///var cost:Double
-    //var calories:Double
+  
     
     init(name:String) {
         self.name = name
