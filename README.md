@@ -2,7 +2,7 @@
 * This app would allow the user to schedule all of their payments in one click. 
 * User wouldn't have to keep on thinking for their deadline and would save their time for opening the bank app and keep on doing it every month.
 
-# This app would make it possible for user to schedule all their payment( for credit cards, people, friends list.). If user is the recipients then the user would be able to keep the money in their wallet or send the money to the bank. 
+* This app would make it possible for user to schedule all their payment( for credit cards, people, friends list.). If user is the recipients then the user would be able to keep the money in their wallet or send the money to the bank. 
 
 * Home- Home would have the feature to show all the details in the grid view format of their calendar
 * todo- Todo has the list of the all the schedules payment for the detail.User would be able to add the person to send the money easily by scheduling in this app.
